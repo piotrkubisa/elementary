@@ -75,7 +75,7 @@ If you'd like to use the overlay scrollbar, add the following custom setting to 
 ```
 
 
-### Overlay Scrollbars
+### Color Scheme
 
 ```javascript
 {
