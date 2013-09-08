@@ -10,11 +10,11 @@
         "layer0.texture": "Theme - Elementary/Elementary Light/tabset-background.png",
         "layer0.inner_margin": [1, 7],
         "layer0.opacity": 1.0,
-        "content_margin": [-4, 0, -4, 3],
+        "content_margin": [-4, 0, -4, 0],
         "tab_overlap": 5,
         "tab_width": 180,
         "tab_min_width": 45,
-        "tab_height": 25,
+        "tab_height": 28,
         "mouse_wheel_switch": false
     },
     {
@@ -29,14 +29,14 @@
         "max_margin_trim": 0,
         "hit_test_level": 0.0,
         "layer0.texture": "Theme - Elementary/Elementary Light/tab-inactive.png",
-        "layer0.inner_margin": [5, 5],
+        "layer0.inner_margin": [6, 6],
         "layer0.opacity": 1.0
     },
     // Tab close state
     {
         "class": "tab_control",
         "settings": ["show_tab_close_buttons"],
-        "content_margin": [12, 3, 7, 3]
+        "content_margin": [12, 4, 7, 3]
     },
     // Tab hover state
     {
@@ -55,7 +55,7 @@
         "class": "tab_control",
         "settings": ["!show_tab_close_buttons"],
         "attributes": ["dirty"],
-        "content_margin": [12, 3, 7, 3]
+        "content_margin": [12, 0, 7, 6]
     },
 
 //
@@ -143,22 +143,24 @@
 
     {
         "class": "tab_label",
+        "font.face": "Droid Sans",
+        "font.size": 12,
         "fade": true,
-        "fg": [50, 50, 50],
-        "shadow_color": [200, 200, 200],
+        "fg": [90, 90, 90],
+        "shadow_color": [215, 215, 215],
         "shadow_offset": [0, 1]
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-        "fg": [25, 25, 25],
-        "shadow_color": [200, 200, 200]
+        "fg": [90, 90, 90],
+        "shadow_color": [215, 215, 215]
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "fg": [0, 0, 0],
-        "shadow_color": [255, 255, 255]
+        "fg": [90, 90, 90],
+        "shadow_color": [237, 237, 237]
     },
 
 //
@@ -361,14 +363,14 @@
     {
         "class": "tool_tip_control",
         "layer0.texture": "Theme - Elementary/Elementary Light/tooltip.png",
-        "layer0.inner_margin": [1, 1],
-        "layer0.opacity": 0.95,
-        "content_margin": [3, 3]
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": [2, 2],
+        "content_margin": [4, 4, 4, 4]
     },
     // Tooltip content
     {
         "class": "tool_tip_label_control",
-        "color": [0, 0, 0]
+        "color": [255, 255, 255]
     },
 
 //
@@ -407,12 +409,12 @@
         "layer0.texture": "Theme - Elementary/Elementary Light/sidebar-bg.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [1, 1, 2, 1],
-        "content_margin": [0, 0, 1, 0]
+        "content_margin": [0, 1, 1, 0]
     },
     // Sidebar tree
     {
         "class": "sidebar_tree",
-        "row_padding": [8, 3],
+        "row_padding": [8, 6],
         "indent": 15,
         "indent_offset": 15,
         "indent_top_level": false
@@ -484,8 +486,8 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [255, 255, 255],
-        "shadow_color": [120, 120, 120],
+        "color": [100, 100, 100],
+        "shadow_color": [225, 225, 225],
         "shadow_offset": [0, 1]
     },
 
