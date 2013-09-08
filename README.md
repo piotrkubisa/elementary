@@ -6,7 +6,7 @@ Elementary UI Theme for Sublime Text 2 and Sublime Text 3.
 
 Based on Soda Theme by Ian Hill (buymeasoda.com/).
 
-![Screen Shot!](http://fc06.deviantart.net/fs70/f/2013/225/a/8/elementary_for_sublime_text_by_srff-d6i21e1.png)
+![Screen Shot!](http://th08.deviantart.net/fs70/PRE/f/2013/251/a/b/elementary_for_sublime_text__updated__by_srff-d6i21e1.png)
 
 ## Manual Installation
 You can also install it manually by following these instructions:
@@ -71,5 +71,14 @@ If you'd like to use the overlay scrollbar, add the following custom setting to 
 ```javascript
 {
     "bold_folder_labels": true
+}
+```
+
+
+### Overlay Scrollbars
+
+```javascript
+{
+    "color_scheme": "Packages/Theme - Elementary/Solarized Light.tmTheme"
 }
 ```
