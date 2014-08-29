@@ -10,12 +10,12 @@
         "layer0.texture": "Theme - Elementary/Elementary Light/tabset-background.png",
         "layer0.inner_margin": [1, 7],
         "layer0.opacity": 1.0,
-        "content_margin": [-4, 0, -4, 0],
+        "content_margin": [-4, 0, 0, 0],
         "tab_overlap": 5,
         "tab_width": 180,
         "tab_min_width": 45,
-        "tab_height": 28,
-        "mouse_wheel_switch": false
+        "tab_height": 27,
+        "mouse_wheel_switch": true
     },
     {
         "class": "tabset_control",
@@ -1107,6 +1107,51 @@
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Elementary/Elementary Light/icon-highlight-on.png"
-    }
+    },
 
+
+/// SODA ICONS
+
+    {
+        "class": "icon_file_type",
+        // layer0.texture is filled in by code with the relevant icon name
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
+    },
+    {
+        "class": "icon_folder",
+        "layer0.texture": "Theme - Elementary/Elementary Light/folder-closed.png",
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
+    },
+    {
+        "class": "icon_folder",
+        "parents":
+        [
+            { "class": "tree_row", "attributes": ["expanded"] }
+        ],
+        "layer0.texture": "Theme - Elementary/Elementary Light/folder-open.png",
+    },
+    {
+        "class": "icon_folder_loading",
+        "layer0.texture":
+        {
+            "keyframes":
+            [
+                "Theme - Default/icons/spinner7.png",
+                "Theme - Default/icons/spinner6.png",
+                "Theme - Default/icons/spinner5.png",
+                "Theme - Default/icons/spinner4.png",
+                "Theme - Default/icons/spinner3.png",
+                "Theme - Default/icons/spinner2.png",
+                "Theme - Default/icons/spinner1.png",
+                "Theme - Default/icons/spinner.png",
+            ],
+            "loop": true,
+            "frame_time": 0.075,
+        },
+
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
+    }
 ]
