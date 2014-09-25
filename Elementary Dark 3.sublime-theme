@@ -798,7 +798,7 @@
     {
         "class": "overlay_control",
         "settings": ["elementary_retina_fix"],
-        "layer0.tint": [0, 0, 0],
+        "layer0.tint": [245, 245, 245],
         "layer0.opacity": 1.0,
         "content_margin": [6, 8, 6, 6]
     },
@@ -810,7 +810,7 @@
     {
         "class": "quick_panel",
         "row_padding": [5, 2],
-        "layer0.tint": [252, 252, 252],
+        "layer0.tint": [60, 60, 60],
         "layer0.opacity": 1.0
     },
     {
@@ -826,21 +826,21 @@
     },
     {
         "class": "quick_panel_label",
-        "fg": [46, 52, 54, 255],
+        "fg": [225, 225, 225, 255],
         "match_fg": [74, 144, 217, 255],
-        "selected_fg": [245, 245, 245, 255],
+        "selected_fg": [255, 255, 255, 255],
         "selected_match_fg": [255, 255, 255, 255]
     },
     {
         "class": "quick_panel_path_label",
-        "fg": [46, 52, 54, 255],
+        "fg": [255, 255, 255, 255],
         "match_fg": [74, 144, 217, 255],
-        "selected_fg": [245, 245, 245, 255],
+        "selected_fg": [255, 255, 255, 255],
         "selected_match_fg": [255, 255, 255, 255]
     },
     {
         "class": "quick_panel_score_label",
-        "fg": [46, 52, 54, 255],
+        "fg": [225, 225, 225, 255],
         "selected_fg": [74, 144, 217, 255]
     },
 
