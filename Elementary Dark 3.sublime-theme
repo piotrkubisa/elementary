@@ -151,22 +151,22 @@
         "font.face": "Droid Sans",
         "font.size": 12,
         "fade": true,
-        "fg": [90, 90, 90],
-        "shadow_color": [215, 215, 215],
+        "fg": [225, 225, 225],
+        "shadow_color": [20, 20, 20],
         "shadow_offset": [0, 1],
         "font.italic": false
-    },
+    }, 
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-        "fg": [90, 90, 90],
-        "shadow_color": [215, 215, 215]
+        "fg": [90, 180, 225],
+        "shadow_color": [20, 20, 20]
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "fg": [90, 90, 90],
-        "shadow_color": [237, 237, 237]
+        "fg": [225, 225, 225],
+        "shadow_color": [20, 20, 20]
     },
     {
         "class": "tab_label",
@@ -374,7 +374,7 @@
     {
         "class": "grid_layout_control",
         "border_size": 1,
-        "border_color": [144, 144, 144]
+        "border_color": [34, 34, 34]
     },
 
 //
@@ -504,7 +504,7 @@
         "layer0.texture": "Theme - Elementary/Elementary Dark/sidebar-bg.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [1, 1, 2, 1],
-        "content_margin": [0, 1, 1, 0]
+        "content_margin": [0, 0, 0, 0]
     },
     // Sidebar tree
     {
@@ -512,7 +512,8 @@
         "row_padding": [8, 6],
         "indent": 15,
         "indent_offset": 15,
-        "indent_top_level": false
+        "indent_top_level": false,
+        "dark_content": true
     },
     // Sidebar rows
     {
@@ -530,7 +531,7 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [120, 120, 120],
+        "color": [225, 225, 225],
         "font.face": "Droid Sans",
         "font.size": 12,
         "font.bold": true,
@@ -547,7 +548,7 @@
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [150, 150, 150],
+        "color": [196, 196, 196],
         "font.face": "Droid Sans",
         "font.size":12,
         "shadow_color": [10, 10, 10],
@@ -559,7 +560,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-        "color": [150, 150, 150]
+        "color": [196, 196, 196]
     },
     {
         "class": "sidebar_label",
@@ -570,20 +571,20 @@
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
         "settings": ["bold_folder_labels"],
-        "color": [150, 150, 150],
+        "color": [196, 196, 196],
         "font.bold": true
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
         "settings": ["bold_folder_labels"],
-        "color": [150, 150, 150]
+        "color": [196, 196, 196]
     },
     // Sidebar entry selected
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [100, 100, 100],
+        "color": [150, 150, 150],
         "shadow_color": [10, 10, 10],
         "shadow_offset": [0, 1]
     },
