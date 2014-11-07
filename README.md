@@ -8,6 +8,17 @@ Based on Soda Theme by Ian Hill (buymeasoda.com/).
 
 ![Screen Shot!](http://th08.deviantart.net/fs70/PRE/f/2013/251/a/b/elementary_for_sublime_text__updated__by_srff-d6i21e1.png)
 
+## NEW! Dark Variant
+
+![Dark Variant](https://raw.githubusercontent.com/piqus/elementary/master/screenshots/shot_dark1.png)
+
+```javascript
+{
+  "theme": "Elementary Dark 3.sublime-theme"
+}
+```
+
+
 ## Manual Installation
 You can also install it manually by following these instructions:
 
