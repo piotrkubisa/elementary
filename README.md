@@ -10,7 +10,7 @@ Based on Soda Theme by Ian Hill (buymeasoda.com/).
 
 ## NEW! Dark Variant
 
-![Dark Variant](https://raw.githubusercontent.com/piqus/elementary/master/screenshots/shot_dark1.png)
+![Dark Variant](https://raw.githubusercontent.com/cassidyjames/elementary/master/screenshots/shot_dark2.png)
 
 ```javascript
 {
